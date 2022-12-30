@@ -54,7 +54,7 @@ FeatureCard2.defaultProps = {
   new_prop: 'Experienced and Supportive',
   rootClassName: '',
   description:
-    'We understand that not one care plan fits all. Daily services can include anything from meal preparation, hygiene, cleaning, and supervision. We will take the time to get to know you and develop an individualized care plan that fits your specific needs.',
+    'We understand that not one idea fits all. We will take the time to discuss your needs and develop and ideal chamber that fits your expectations.',
 }
 
 FeatureCard2.propTypes = {

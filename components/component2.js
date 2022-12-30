@@ -12,23 +12,35 @@ const Component2 = (props) => {
           <ul className="component2-ul list"></ul>
           <ul className="component2-ul1 list">
             <li className="component2-li list-item">
-              <span className="component2-text2">{props.text}</span>
-            </li>
-          </ul>
-          <ul className="component2-ul2 list">
-            <li className="component2-li1 list-item">
-              <span className="component2-text3">{props.text1}</span>
-            </li>
-          </ul>
-          <ul className="component2-ul3 list">
-            <li className="component2-li2 list-item">
               <a
-                href={props.link_text}
+                href={props.link_text1}
                 target="_blank"
                 rel="noreferrer noopener"
                 className="component2-link"
               >
-                {props.text2}
+                {props.text21}
+              </a>
+            </li>
+          </ul>
+          <ul className="component2-ul2 list">
+            <li className="component2-li1 list-item">
+              <span className="component2-text2">{props.text2}</span>
+            </li>
+          </ul>
+          <ul className="component2-ul3 list">
+            <li className="component2-li2 list-item">
+              <span className="component2-text3">{props.text1}</span>
+            </li>
+          </ul>
+          <ul className="component2-ul4 list">
+            <li className="component2-li3 list-item">
+              <a
+                href={props.link_text11}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="component2-link1"
+              >
+                {props.text211}
               </a>
             </li>
           </ul>
@@ -81,7 +93,7 @@ const Component2 = (props) => {
           .component2-li {
             font-size: 12px;
           }
-          .component2-text2 {
+          .component2-link {
             font-size: 16px;
             font-family: Lexend;
             font-weight: 400;
@@ -100,7 +112,7 @@ const Component2 = (props) => {
           .component2-li1 {
             font-size: 12px;
           }
-          .component2-text3 {
+          .component2-text2 {
             font-size: 16px;
             font-family: Lexend;
             font-weight: 400;
@@ -119,7 +131,26 @@ const Component2 = (props) => {
           .component2-li2 {
             font-size: 12px;
           }
-          .component2-link {
+          .component2-text3 {
+            font-size: 16px;
+            font-family: Lexend;
+            font-weight: 400;
+            line-height: 1.1;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .component2-ul4 {
+            width: auto;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-halfunit);
+            margin-bottom: var(--dl-space-space-halfunit);
+            list-style-type: disc;
+            list-style-position: inside;
+          }
+          .component2-li3 {
+            font-size: 12px;
+          }
+          .component2-link1 {
             font-size: 16px;
             font-family: Lexend;
             font-weight: 400;
@@ -171,24 +202,29 @@ const Component2 = (props) => {
 }
 
 Component2.defaultProps = {
+  text21: 'Manufactured in the USA using USA quality steel and manpower.',
   text1: 'ASME Boiler and Pressure Vessel Code',
-  link_text:
+  link_text11:
     'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfrl/rl.cfm?rid=63412',
-  Text: 'Hyperbaric for Life Hard-Shell Chamber can safely reach 3.0 ATA. Our Chambers boasts FDA CLEARANCE. The hyperbaric oxygen chamber is a specially designed unit in which the patient is exposed to 100% oxygen at a pressure greater than sea level. All of Hyperbaric for Life hard-shell hyperbaric oxygen chambers are designed, fabricated, assembled, tested, and installed in accordance with the following codes and standards:',
-  text2: 'U.S. FDA 510K Clearance',
+  link_text1:
+    'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfrl/rl.cfm?rid=63412',
+  Text: 'Hyperbaric for Life Hard-Shell Chamber can safely reach 3.0 ATA. All chambers built after 1/1/2023 are certified to 4.0 ATA for the extra safety. Our Chambers are FDA cleared with 510K. The hyperbaric oxygen chamber is a specially designed unit in which the patient is exposed to 100% oxygen at a pressure greater than sea level. All of Hyperbaric for Life hard-shell chambers are designed, fabricated, assembled, tested, and installed in accordance with the following codes and standards.',
+  text2: 'PVHO-1 Safety Standard for Pressure Vessels for Human Occupancy.',
   heading: 'Hyperbaric for Life Standards',
   rootClassName: '',
-  text: 'PVHO-1 Safety Standard for Pressure Vessels for Human Occupancy.',
+  text211: 'U.S. FDA 510K Clearance',
 }
 
 Component2.propTypes = {
+  text21: PropTypes.string,
   text1: PropTypes.string,
-  link_text: PropTypes.string,
+  link_text11: PropTypes.string,
+  link_text1: PropTypes.string,
   Text: PropTypes.string,
   text2: PropTypes.string,
   heading: PropTypes.string,
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
+  text211: PropTypes.string,
 }
 
 export default Component2

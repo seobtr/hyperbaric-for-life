@@ -2,6 +2,9 @@
   --dl-color-pink-200: #8392abff;
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-pimary-500: #4aa4e3ff;
+  --dl-color-pimary-700: #c3e5faff;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
@@ -19,12 +22,15 @@
   --dl-color-grays-white60: #ffffff99;
   --dl-color-grays-white80: #ffffffcc;
   --dl-color-secondary-100: #d2d6daff;
+  --dl-color-secondary-400: #334155ff;
   --dl-color-secondary-600: #252f40ff;
   --dl-color-secondary-700: #20273fff;
   --dl-radius-radius-round: 50%;
   --dl-color-grays-black100: #000000;
   --dl-color-grays-white100: #FFFFFF;
   --dl-color-scheme-green80: #105749ff;
+  --dl-color-secondary-1001: #111729ff;
+  --dl-color-secondary-7001: #94a3b8ff;
   --dl-space-space-halfunit: 0.5rem;
   --dl-space-space-sixunits: 6rem;
   --dl-space-space-twounits: 32px;
@@ -33,17 +39,20 @@
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius5: 0.5rem;
   --dl-radius-radius-radius8: 8px;
-  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fiveunits: 5rem;
   --dl-space-space-fourunits: 4rem;
   --dl-color-backgrounds-gray: #f7f4f2ff;
   --dl-color-scheme-lightblue: #0975f1ff;
   --dl-color-scheme-orange100: #ffad61ff;
+  --dl-radius-radius-radius25: 0.25rem;
+  --dl-radius-radius-radius50: 0.5rem;
   --dl-radius-radius-radius75: 0.75rem;
   --dl-space-space-doubleunit: 2rem;
   --dl-space-space-eightunits: 128px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-tripleunit: 3rem;
   --dl-color-backgrounds-green: #2b584dff;
+  --dl-space-space-unitandhalf: 1.5rem;
   --dl-color-backgrounds-purple: #623373ff;
   --dl-color-backgrounds-primary: #fa7930ff;
   --dl-color-backgrounds-darkblue: #0d1f3aff;
@@ -262,6 +271,14 @@
   flex-direction: row;
   justify-content: center;
 }
+.Text2XL {
+  font-size: 2.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: none;
+  text-decoration: none;
+}
 .Content-Light {
   font-size: 16px;
   font-style: normal;
@@ -312,6 +329,13 @@
   text-transform: none;
   text-decoration: none;
 }
+.TextSM {
+  font-size: 0.87rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
+}
 .Lead {
   font-size: 1.25rem;
   font-family: Open Sans;
@@ -352,11 +376,25 @@
   text-transform: none;
   text-decoration: none;
 }
+.Healine {
+  font-size: 1.875rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+}
 .List2 {
   font-size: 20px;
   font-family: Lexend;
   font-weight: 400;
   line-height: 1.1;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextXL {
+  font-size: 1.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }

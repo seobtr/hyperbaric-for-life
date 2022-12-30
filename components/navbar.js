@@ -32,12 +32,11 @@ const Navbar = (props) => {
                   <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
               </a>
-              <a
-                href="mailto:hbot4life@gmail.com?subject=Authorized Dealer Inquiry"
-                className="navbar-primary-btn button-primary button"
-              >
-                {props.PrimaryBtn}
-              </a>
+              <Link href="/authorized-dealer">
+                <a className="navbar-link2 button-primary button">
+                  {props.PrimaryBtn}
+                </a>
+              </Link>
               <div data-role="BurgerMenu" className="navigation-burger-menu">
                 <svg viewBox="0 0 1024 1024" className="navbar-icon02">
                   <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
@@ -47,7 +46,7 @@ const Navbar = (props) => {
             <div className="navbar-container2">
               <div className="navbar-nav">
                 <Link href="/custom-hyperbarics">
-                  <a className="navbar-link2">
+                  <a className="navbar-link3">
                     <NavigationLinks
                       rootClassName="navigation-links-root-class-name10"
                       className="navbar-navigation-links"
@@ -61,7 +60,7 @@ const Navbar = (props) => {
             <div className="navbar-nav1">
               <div className="navbar-container3">
                 <Link href="/">
-                  <a className="navbar-link3">
+                  <a className="navbar-link4">
                     <img
                       alt="logo"
                       src="/playground_assets/group%2013.svg"
@@ -150,16 +149,16 @@ const Navbar = (props) => {
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .navbar-primary-btn {
-            width: 145px;
-            height: 35px;
+          .navbar-link2 {
+            width: auto;
+            height: auto;
             z-index: 100;
             transition: 0.3s;
             border-radius: 5px;
             text-decoration: none;
             background-color: #000000;
           }
-          .navbar-primary-btn:hover {
+          .navbar-link2:hover {
             color: #0083ff;
             border-color: #0083ff;
           }
@@ -178,7 +177,7 @@ const Navbar = (props) => {
           .navbar-nav {
             display: flex;
           }
-          .navbar-link2 {
+          .navbar-link3 {
             display: contents;
           }
           .navbar-navigation-links {
@@ -198,7 +197,7 @@ const Navbar = (props) => {
             justify-content: space-between;
           }
 
-          .navbar-link3 {
+          .navbar-link4 {
             display: contents;
           }
           .navbar-image1 {
@@ -286,7 +285,7 @@ const Navbar = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .navbar-primary-btn {
+            .navbar-link2 {
               display: none;
             }
             .navbar-icon02 {
@@ -320,7 +319,7 @@ Navbar.defaultProps = {
   rootClassName: '',
   text: 'Follow us',
   link_text: 'https://example.com',
-  PrimaryBtn: 'Find a Dealer',
+  PrimaryBtn: 'Authorized Distributors',
   PrimaryBtn1: 'Get started',
 }
 

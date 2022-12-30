@@ -11,12 +11,12 @@ const Paage = (props) => {
       <div className="paage-container">
         <Head>
           <title>
-            Paage - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For
-            Life
+            Paage - Hyperbaric Hard-Shell Oxygen Chamber Manufacture |
+            Hyperbaric for Life
           </title>
           <meta
             property="og:title"
-            content="Paage - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life"
+            content="Paage - Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for Life"
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name5"></Navbar>

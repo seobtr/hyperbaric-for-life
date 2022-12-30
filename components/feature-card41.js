@@ -62,7 +62,7 @@ const FeatureCard41 = (props) => {
 
 FeatureCard41.defaultProps = {
   description:
-    'The powder-coat process entails the application of electrostatically charged particles onto the surface of the substrate. The charged particles are attracted to the metal pieces and adhere to the surface. Powder Coating the chambers creates a layer of protection that prevents corrosion and rust.',
+    'Powder Coating the chambers creates a layer of protection that helps in the prevention of corrosion and rust.',
   rootClassName: '',
   title: 'Our Powder Coating Process',
 }

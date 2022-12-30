@@ -10,12 +10,12 @@ const Gallery = (props) => {
       <div className="gallery-container">
         <Head>
           <title>
-            Gallery - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric
-            For Life
+            Gallery - Hyperbaric Hard-Shell Oxygen Chamber Manufacture |
+            Hyperbaric for Life
           </title>
           <meta
             property="og:title"
-            content="Gallery - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life"
+            content="Gallery - Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for Life"
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>

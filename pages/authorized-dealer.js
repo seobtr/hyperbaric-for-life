@@ -12,12 +12,12 @@ const AuthorizedDealer = (props) => {
       <div className="authorized-dealer-container">
         <Head>
           <title>
-            Authorized-Dealer - Hyperbaric Manufacture - Waddell, AZ 85355 |
-            Hyperbaric For Life
+            Authorized-Dealer - Hyperbaric Hard-Shell Oxygen Chamber Manufacture
+            | Hyperbaric for Life
           </title>
           <meta
             property="og:title"
-            content="Authorized-Dealer - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life"
+            content="Authorized-Dealer - Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for Life"
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name3"></Navbar>

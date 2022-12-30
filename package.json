@@ -1,5 +1,5 @@
 {
-  "name": "hyperbaric-manufacture-waddell-az-85355-hyperbaric-for-life",
+  "name": "hyperbaric-hard-shell-oxygen-chamber-manufacture-hyperbaric-for-life",
   "version": "1.0.0",
   "description": "A next project generated based on a UIDL document",
   "main": "index.js",
@@ -15,6 +15,7 @@
     "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "@lottiefiles/lottie-player": "1.6.0",
     "prop-types": "15.7.2"
   },
   "devDependencies": {}

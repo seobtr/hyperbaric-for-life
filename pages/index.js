@@ -5,7 +5,6 @@ import Navbar from '../components/navbar'
 import DualBtn from '../components/dual-btn'
 import FeatureCard4 from '../components/feature-card4'
 import FeatureCard2 from '../components/feature-card2'
-import GridCard from '../components/grid-card'
 import FeatureCard41 from '../components/feature-card41'
 import SliderSection from '../components/slider-section'
 import Footer from '../components/footer'
@@ -16,11 +15,12 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>
-            Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life
+            Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for
+            Life
           </title>
           <meta
             property="og:title"
-            content="Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life"
+            content="Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for Life"
           />
         </Head>
         <Navbar></Navbar>
@@ -149,7 +149,7 @@ const Home = (props) => {
                       <span>Shipping</span>
                     </h1>
                     <span className="home-text42">
-                      <span>White Glove Service and Onboarding</span>
+                      <span>Service and Onboarding</span>
                       <br></br>
                     </span>
                   </div>
@@ -161,7 +161,10 @@ const Home = (props) => {
                 href="mailto:hbot4yourlife@gmail.com?subject=Requesting Consultation"
                 className="home-button button"
               >
-                <span className="home-text45">Request a Consultation</span>
+                <span className="home-text45">
+                  <span className="home-text46">Request a Call</span>
+                  <br></br>
+                </span>
               </a>
             </div>
             <div className="home-separator"></div>
@@ -178,7 +181,7 @@ const Home = (props) => {
                 className="home-image2"
               />
               <div className="home-container07">
-                <h1 className="home-text46">
+                <h1 className="home-text48">
                   Let us show you the latest customized hyperbarics delivered to
                   your inbox!
                 </h1>
@@ -188,17 +191,16 @@ const Home = (props) => {
                   href="mailto:hbot4life@gmail.com?subject=Request Design Examples"
                   className="home-button1 button"
                 >
-                  <span className="home-text47">
-                    <span className="home-text48">Request Design Examples</span>
+                  <span className="home-text49">
+                    <span className="home-text50">Request Design Examples</span>
                     <br></br>
                   </span>
                 </a>
               </div>
             </div>
-            <GridCard rootClassName="grid-card-root-class-name"></GridCard>
             <div className="home-features">
               <div className="home-separator1"></div>
-              <h2 className="home-text50">
+              <h2 className="home-text52">
                 Discover Our Custom Hard-Shell Chambers
               </h2>
               <div className="home-container09">
@@ -209,7 +211,7 @@ const Home = (props) => {
                   <div className="home-gallery-card">
                     <img
                       alt="Hyperbaric Shell"
-                      src="/playground_assets/mask%20groupcustom-600w.png"
+                      src="/playground_assets/green%20split%20chamber%20manufacturing-600w.png"
                       className="home-image3"
                     />
                   </div>
@@ -221,35 +223,44 @@ const Home = (props) => {
             </section>
           </div>
           <div className="home-container12">
-            <h3 className="home-text51">Hyperbaric for Life Standards</h3>
-            <span className="home-text52">
-              Hyperbaric for Life Hard-Shell Chamber can safely reach 3.0 ATA.
-              Our Chambers boasts FDA CLEARANCE. The hyperbaric oxygen chamber
-              is a specially designed unit in which the patient is exposed to
-              100% oxygen at a pressure greater than sea level. All of
-              Hyperbaric for Life hard-shell hyperbaric oxygen chambers are
+            <h3 className="home-text53">Hyperbaric for Life Standards</h3>
+            <span className="home-text54">
+              Hyperbaric for Life Hard-Shell Chamber can safely reach 3.0 ATA.
+              All chambers built after 1/1/2023 are certified to 4.0 ATA for the
+              extra safety. Our Chambers are FDA cleared with 510K. The
+              hyperbaric oxygen chamber is a specially designed unit in which
+              the patient is exposed to 100% oxygen at a pressure greater than
+              sea level. All of Hyperbaric for Life hard-shell chambers are
               designed, fabricated, assembled, tested, and installed in
-              accordance with the following codes and standards:
+              accordance with the following codes and standards
             </span>
             <div className="home-horizontal-list">
               <ul className="home-ul list"></ul>
               <ul className="home-ul1 list">
                 <li className="home-li list-item">
-                  <span className="home-text53">
-                    PVHO-1 Safety Standard for Pressure Vessels for Human
-                    Occupancy.
+                  <span className="home-text55">
+                    Manufactured in the USA using USA quality steel and
+                    manpower.
                   </span>
                 </li>
               </ul>
               <ul className="home-ul2 list">
                 <li className="home-li1 list-item">
-                  <span className="home-text54">
-                    ASME Boiler and Pressure Vessel Code
+                  <span className="home-text56">
+                    PVHO-1 Safety Standard for Pressure Vessels for Human
+                    Occupancy.
                   </span>
                 </li>
               </ul>
               <ul className="home-ul3 list">
                 <li className="home-li2 list-item">
+                  <span className="home-text57">
+                    ASME Boiler and Pressure Vessel Code
+                  </span>
+                </li>
+              </ul>
+              <ul className="home-ul4 list">
+                <li className="home-li3 list-item">
                   <a
                     href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfrl/rl.cfm?rid=63412"
                     target="_blank"
@@ -616,6 +627,7 @@ const Home = (props) => {
             padding: var(--dl-space-space-threeunits);
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
+            margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: column;
             justify-content: space-between;
             background-color: #000000;
@@ -636,7 +648,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text46 {
+          .home-text48 {
             color: rgb(255, 254, 254);
             align-self: center;
             text-align: center;
@@ -674,7 +686,7 @@ const Home = (props) => {
             transform: scale(1.02);
             background: linear-gradient(155deg, #2152ff, #21d4fd);
           }
-          .home-text47 {
+          .home-text49 {
             color: rgb(0, 0, 0);
           }
           .home-features {
@@ -689,7 +701,7 @@ const Home = (props) => {
             height: 2px;
             background-color: #595959;
           }
-          .home-text50 {
+          .home-text52 {
             font-size: 38px;
             text-align: left;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -729,10 +741,11 @@ const Home = (props) => {
           .home-image3 {
             top: 0px;
             left: 0px;
-            right: auto;
+            right: 0px;
             width: 100%;
-            bottom: auto;
-            height: 100%;
+            bottom: 0px;
+            height: auto;
+            margin: auto;
             position: absolute;
             object-fit: contain;
           }
@@ -758,7 +771,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text52 {
+          .home-text54 {
             align-self: center;
           }
           .home-horizontal-list {
@@ -791,7 +804,7 @@ const Home = (props) => {
           .home-li {
             font-size: 12px;
           }
-          .home-text53 {
+          .home-text55 {
             font-size: 16px;
             font-family: Lexend;
             font-weight: 400;
@@ -810,7 +823,7 @@ const Home = (props) => {
           .home-li1 {
             font-size: 12px;
           }
-          .home-text54 {
+          .home-text56 {
             font-size: 16px;
             font-family: Lexend;
             font-weight: 400;
@@ -827,6 +840,25 @@ const Home = (props) => {
             list-style-position: inside;
           }
           .home-li2 {
+            font-size: 12px;
+          }
+          .home-text57 {
+            font-size: 16px;
+            font-family: Lexend;
+            font-weight: 400;
+            line-height: 1.1;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .home-ul4 {
+            width: auto;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-halfunit);
+            margin-bottom: var(--dl-space-space-halfunit);
+            list-style-type: disc;
+            list-style-position: inside;
+          }
+          .home-li3 {
             font-size: 12px;
           }
           .home-link1 {
@@ -851,7 +883,7 @@ const Home = (props) => {
             .home-container07 {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-text46 {
+            .home-text48 {
               text-align: center;
             }
             .home-button1 {
@@ -862,7 +894,7 @@ const Home = (props) => {
               height: auto;
               align-items: center;
             }
-            .home-text52 {
+            .home-text54 {
               text-align: left;
             }
           }
@@ -983,7 +1015,7 @@ const Home = (props) => {
             .home-features {
               align-items: center;
             }
-            .home-text50 {
+            .home-text52 {
               align-self: flex-start;
             }
             .home-container09 {
@@ -996,7 +1028,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
             }
-            .home-text52 {
+            .home-text54 {
               text-align: center;
             }
           }
@@ -1085,7 +1117,7 @@ const Home = (props) => {
               align-items: center;
               flex-direction: column;
             }
-            .home-text52 {
+            .home-text54 {
               text-align: center;
             }
           }
@@ -1171,6 +1203,9 @@ const Home = (props) => {
             .home-text45 {
               text-align: center;
             }
+            .home-text46 {
+              text-align: center;
+            }
             .home-container06 {
               grid-template-columns: 1fr;
             }
@@ -1189,16 +1224,16 @@ const Home = (props) => {
               margin-left: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .home-text46 {
+            .home-text48 {
               font-size: 30px;
             }
             .home-button1 {
               align-self: center;
             }
-            .home-text47 {
+            .home-text49 {
               text-align: center;
             }
-            .home-text48 {
+            .home-text50 {
               text-align: center;
             }
             .home-features {
@@ -1235,14 +1270,17 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text51 {
+            .home-text53 {
               align-self: flex-start;
             }
-            .home-text52 {
+            .home-text54 {
               font-size: 16px;
               text-align: left;
             }
-            .home-text53 {
+            .home-text55 {
+              font-size: 16px;
+            }
+            .home-text56 {
               font-size: 16px;
             }
           }

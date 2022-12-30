@@ -31,11 +31,6 @@ const GridCard = (props) => {
             line-height: 1.3;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .grid-card-root-class-name {
-            margin-top: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
-            background-color: rgba(0, 131, 255, 0.06);
-          }
         `}
       </style>
     </>

@@ -7,7 +7,7 @@ const DualBtn = (props) => {
     <>
       <div className={`dual-btn-container ${props.rootClassName} `}>
         <a
-          href="mailto:hbot4life@gmail.com?subject=Price Request"
+          href="mailto:hbot4yourlife@gmail.com?subject=Price Request"
           className="dual-btn-button button"
         >
           <span className="dual-btn-text">{props.text}</span>
@@ -165,7 +165,7 @@ const DualBtn = (props) => {
 
 DualBtn.defaultProps = {
   rootClassName: '',
-  text1: 'Find a Dealer',
+  text1: 'Find Distributor',
   text: 'Request a Price',
 }
 

@@ -13,12 +13,12 @@ const CustomHyperbarics = (props) => {
       <div className="custom-hyperbarics-container">
         <Head>
           <title>
-            Custom-Hyperbarics - Hyperbaric Manufacture - Waddell, AZ 85355 |
-            Hyperbaric For Life
+            Custom-Hyperbarics - Hyperbaric Hard-Shell Oxygen Chamber
+            Manufacture | Hyperbaric for Life
           </title>
           <meta
             property="og:title"
-            content="Custom-Hyperbarics - Hyperbaric Manufacture - Waddell, AZ 85355 | Hyperbaric For Life"
+            content="Custom-Hyperbarics - Hyperbaric Hard-Shell Oxygen Chamber Manufacture | Hyperbaric for Life"
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>
@@ -987,7 +987,7 @@ const CustomHyperbarics = (props) => {
             align-items: flex-start;
             flex-direction: column;
             background-size: cover;
-            background-image: url('/playground_assets/img_0370-1200h.png');
+            background-image: url('/playground_assets/split%20chamber%20hyperbaric%20white-1200h.png');
             background-position: center;
           }
           .custom-hyperbarics-container24:hover {
